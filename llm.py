@@ -9,5 +9,3 @@ def ask_llm(message):
         messages = message
     )
     return response.choices[0].message.content
-
-#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
