@@ -9,8 +9,6 @@ api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
     raise ValueError("GROQ_API_KEY not found")
 
-print("API KEY =", api_key)
-
 client = Groq(api_key=api_key)
 
 def ask_llm(messages):
